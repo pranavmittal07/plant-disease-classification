@@ -3,7 +3,7 @@
 ## Research Gaps
 While deep learning has been extensively explored for plant disease detection, several gaps remain:
 
-- Few studies directly compare ANN, CNN, VGG16, and DenseNet under the same conditions, including dataset, preprocessing, and training parameters.
+- Few studies directly compare ANN, CNN, VGG16, and DenseNet under the different conditions, including dataset, preprocessing, and training parameters.
 - The impact of transfer learning on model accuracy and generalization in plant disease classification is not fully understood. The model is not tested on large unseen data after training.
 - Computational efficiency remains a challenge, as most research focuses on highly complex architectures that demand significant computing power.
 
@@ -74,7 +74,7 @@ VGG16 is a pre-trained CNN on ImageNet. The first four convolutional blocks (con
 ![VGG16 architecture](images/vgg16.png)
 
 ### DenseNet121 (Transfer Learning)
-DenseNet121 is a pre-trained CNN on ImageNet. Only the final fully connected layers were fine-tuned. The convolutional layers, including Conv5, were frozen. The input is 256×256 RGB images, and the output layer uses Softmax activation for 38 classes.
+DenseNet121 is a pre-trained CNN on ImageNet. Fully Connected Layers along with the dense block is finetuned. The input is 256×256 RGB images, and the output layer uses Softmax activation for 38 classes.
 
 ![DenseNet121 architecture](images/densenet121.png)
 

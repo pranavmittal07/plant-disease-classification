@@ -1,8 +1,4 @@
-Flask
+streamlit
 numpy
-pandas
-torch
-torchvision
 Pillow
-requests
-MarkupSafe
+tensorflow

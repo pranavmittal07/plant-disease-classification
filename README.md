@@ -127,3 +127,5 @@ This study evaluated the performance of four deep learning models—ANN, CNN, VG
 VGG16 emerged as the best-performing model, achieving the highest validation and testing accuracy, largely due to its deep architecture and use of transfer learning. DenseNet121 also performed exceptionally well, benefiting from feature reuse but slightly lagging behind VGG16. CNN demonstrated strong performance, indicating that convolutional networks can effectively learn plant disease features. ANN performed the weakest, highlighting the limitations of fully connected networks in image classification tasks.
 
 Future work should explore higher-resolution images, advanced data augmentation techniques, and other deep learning approaches to further enhance model performance. Overall, this study demonstrates the effectiveness of deep learning models in plant disease classification and emphasizes the trade-offs between model complexity, computational efficiency, and classification accuracy.
+
+Model Deployed link for testing: https://plant-disease-predictor-optimised.streamlit.app/
